@@ -1,0 +1,13 @@
+# Input files into Python for analysis
+#
+# Reference: 
+# http://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html
+from scipy.io import loadmat
+
+path = ''
+
+def matlab_in(path):
+    '''
+    Load a matlab file from disc
+    '''
+    return loadmat(path)
